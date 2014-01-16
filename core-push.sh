@@ -19,9 +19,4 @@ rm -R /tmp/ywc_backend_d /tmp/ywc_backend_d.tar.gz;
 cd $SCRIPT_DIR;
 git add .;
 git commit -m "Latest version";
-
-#git checkout gh-pages;
-#git merge master -m "Latest version merged into gh-pages";
 git push;
-#git checkout master;
-#git push;
